@@ -1,0 +1,378 @@
+/* head */
+.head {
+    width: 1728px;
+    height: 158px;
+    background-color: #191A19;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    margin-left: 113px;
+    width: 280px;
+    height: 44px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 218px;
+}
+.nav-ul {
+    display: flex;
+    width: 505px;
+    height: 65px;
+}
+.nav-li {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.a-item {
+    color: #FFFFFF;
+    line-height: 36px;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.active-link {
+    color: #FF7420;
+    text-decoration: underline;
+}
+.btn {
+    margin-left: 117px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.lang {
+    background-color: #191A19;
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-right: 24px;
+    border: none;
+}
+.lang::after {
+    content: url(/Images/Vector.svg);
+}
+.contact {
+    background-color: #FF7420;
+    color: #FFFFFF;
+    font-size: 24px;
+    width: 194px;
+    height: 66px;
+    border-radius: 15px;
+}
+
+/* section 1 */
+.section1 {
+    width: 1728px;
+    height: 778px;
+    background: url(/Images/construction-workers.jpg) center / cover no-repeat;
+}
+.section-block {    
+    margin-top: 154px;
+    margin-left: 112px;
+}
+.prepare {
+    width: 377px;
+    height: 96px;
+    font-size: 64px;
+    line-height: 96px;
+    color: #FFFFFF;
+}
+.future {
+    width: 459px;
+    height: 96px;
+    font-size: 64px;
+    line-height: 96px;
+    color: #FFFFFF;
+}
+.section-a {
+    color: #FF7420;
+}
+.text {
+    margin-top: 14px;
+    width: 587px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.button {
+    margin-top: 75px;
+}
+.service {
+    width: 246px;
+    height: 66px;
+    background-color: #FF7420;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+.project {
+    width: 208px;
+    height: 66px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    color: #191A19;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+/* section 2 */
+.section2 {
+    width: 1728px;
+    height: 1385px;
+    height: 884px;
+    background-color: #FF7420;
+}
+.navigation2 {
+    display: flex;
+    align-items: center;
+    margin-left: 111px;
+}
+.feature {
+    width: 535px;
+    height: 96px;
+    font-size: 64px;
+    line-height: 96px;
+    color: #191A19;
+}
+.nav-ul2 {
+    display: flex;
+    justify-content: space-between;
+    /* width: 153px;
+    height: 50px; */
+}
+.nav-li2 {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.a-item2 {
+    color: #FFFFFF;
+    line-height: 36px;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.active-link-work {
+    color: #191A19;
+    text-decoration: underline;
+}
+.container {
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.container1 {
+    width: 485.24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(/Images/Skyskuy-Tower.jpg);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.container2 {
+    width: 485.24px;
+    height: 613px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(/Images/Fallingwater-House.jpg);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.container3 {
+    width: 485.24px;
+    height: 613px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(/Images/Orange-Apartement.jpg);
+    background-repeat: no-repeat;
+
+    border-radius: 15px;
+}
+.tower {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 36px;
+}
+.renovation {
+    margin-bottom: 22px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 30px;
+}
+.explore {
+    /* margin-right: 111px; */
+    margin-left: 1350px;
+    margin-top: 22px;
+    font-size: 20px;
+    text-align: center;
+}
+.explore::after {
+    margin-left: 10px;
+    content: url(/Images/Vector1.svg);
+}
+
+/* section 3 */
+.section3 {
+    width: 1728px;
+    height: 443px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #191A19;
+}
+.section3 h5 {
+    color: #FF7420;
+    font-size: 28px;
+    margin-top: 39px;
+}
+.section3 p {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 28px;
+    width: 890px;
+    height: 90px;
+}
+.section3 h6 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 14px;
+}
+
+/* section 4 */
+.section4 {
+    width: 1728px;
+    height: 900px;
+    background-color: #191A19;
+}
+.section4 h4 {
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 64px;
+}
+.forms {
+    display: flex;
+    margin: 121px auto;
+    width: 1503px;
+    height: 661px;
+}
+.forms1 {
+    width: 963px;
+    height: 661px;
+    background-color: #FF7420;
+    border-radius: 15px;
+}
+.inputs {
+    margin-top: 42px;
+    margin-left: 58px;
+}
+.quote {
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.complete {
+    width: 895px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 30px;
+}
+.form-input {
+    width: 419px;
+    height: 76px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 0;
+    color: #191A1980;
+}
+.form-input-details {
+    width: 840px;
+    height: 148px;
+    border: none;
+    border-radius: 15px;
+    color: #191A1980;
+}
+.submit {
+    width: 840px;
+    height: 76px;
+    background-color: #191A19;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 24px;
+}
+.forms2 {
+    margin-left: 41px;
+    width: 499px;
+    height: 661px;
+    background-color: #FF7420;
+    border-radius: 15px;
+}
+.contact1 {
+    margin-top: 42px;
+    margin-left: 64px;
+}
+.contact1 h5 {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.location {
+    margin-top: 38px;
+    margin-bottom: 5px;
+}
+.loc-text {
+    width: 355px;
+    height: 48px;
+    color: #FFFFFF;
+}
+.quick-cont {
+    margin-top: 24px;
+    margin-bottom: 5px;
+}
+.tel-mail {
+    font-size: 16px;
+}
+.open {
+    margin-top: 24px;
+    margin-bottom: 5px;
+}
+.hours {
+    color: #FFFFFF;
+}
+.questions {
+    margin-top: 24px;
+    color: #FFFFFF;
+    width: 355px;
+    height: 60px;
+    font-size: 20px;
+}
+.form-button {
+    width: 384px;
+    height: 76px;
+    border-radius: 15px;
+    background-color: #191A19;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 46px;
+}
+
+/* footer */
