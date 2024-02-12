@@ -23,6 +23,7 @@
 }
 .nav-ul {
     display: flex;
+    justify-content: space-between;
     width: 505px;
     height: 65px;
 }
@@ -70,7 +71,7 @@
 .section1 {
     width: 1728px;
     height: 778px;
-    background: url(/Images/construction-workers.jpg) center / cover no-repeat;
+    background: url(/Images/construction-workers.jpg);
 }
 .section-block {    
     margin-top: 154px;
